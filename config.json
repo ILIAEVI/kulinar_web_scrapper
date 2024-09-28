@@ -1,0 +1,31 @@
+{
+  "base_url": "https://kulinaria.ge/",
+  "main_category_name": "სამარხვო/ვეგეტარიანული",
+  "categories_url": "receptebi/",
+  "category_classes": {
+    "main_category": "recipe__nav--view",
+    "category_item": "recipe__nav-item",
+    "category_text": "txt"
+  },
+  "recipes_classes": {
+    "recipes_container": "kulinaria-row box-container",
+    "recipe_link": "box__title"
+  },
+  "recipe_page_classes": {
+    "recipe_title": "post__title",
+    "main_image": "post__img",
+    "description": "post__description",
+    "author": "post__author",
+    "author_name": "a",
+    "ingredients": "list__item",
+    "cooking_stages": "lineList__item",
+    "stage_count": "count",
+    "stage_text": "p",
+    "portion": "lineDesc__item"
+  },
+  "mongodb": {
+    "uri": "mongodb://localhost:27017",
+    "db_name": "recipe_database",
+    "collection_name": "recipes"
+  }
+}
